@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kolokvij2</string>
+    <string name="izbrisi">Izbrisi</string>
+    <string name="upisi_id_lika">Upisi ID lika</string>
+    <string name="autor_mickeya">autor Mickeya</string>
+    <string name="tekst">saljem drugi notification</string>
+    <string name="dr_notif">ovo je drugi notification</string>
+</resources>

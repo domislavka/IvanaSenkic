@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hr.math.ivsenki.kolokvij2.MainActivity"
+    android:id="@+id/linearLayout"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/tablica"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/editTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/autor_mickeya"/>
+
+    <EditText
+        android:id="@+id/deleteRow"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/upisi_id_lika"/>
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/izbrisi"
+        android:onClick="onClickDeleteRow"/>
+
+</LinearLayout>
+
+
+
+
